@@ -26,4 +26,25 @@ This script demonstrates the functionality of the Web Search Agent and Finance A
 
 Steps to Run:
 1. Activate the virtual environment:
+   ```
    .\venv\Scripts\activate
+   ```
+2. Run the script:
+   ```
+   python financial_agent.py
+   ```
+3. The script will output a response summarizing analyst recommendations and the latest news for the stock symbol NVDA.
+
+### Running playground.py
+This script launches an interactive web-based playground to explore the agents' capabilities.
+
+Steps to Run:
+1. Activate the virtual environment:
+   ```
+   .\venv\Scripts\activate
+   ```
+2. Run the script:
+   ```
+   python playground.py
+   ```
+3. Open `Phidata.com` and login. Navigate to the `Playground` section and select the `LOCALHOST : 7777` endpoint. Then you can chat and interact with the agents.
